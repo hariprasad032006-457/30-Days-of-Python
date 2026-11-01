@@ -1,0 +1,9 @@
+financial = {
+  "q1" : {'salery':3000 , 'expences' : 2500},
+  'q2' : {'salery': 8000, 'expences' : 5500},
+  'q3' : {'salery' : 4000 , 'expences': 4400}
+}
+
+for id ,value in financial.items():
+  remaining = {value['salery']} - {value['expences']}
+  print(f'{id} salery: {value['salery']} expences : {value['expences']} remaining: {remaining}')
