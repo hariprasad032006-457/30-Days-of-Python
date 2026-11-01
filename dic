@@ -7,3 +7,13 @@ financial = {
 for id ,value in financial.items():
   remaining = {value['salery']} - {value['expences']}
   print(f'{id} salery: {value['salery']} expences : {value['expences']} remaining: {remaining}')
+
+
+#typr hint
+def student(first_name:str,Last_name:str)->str:
+  full_name=first_name + Last_name
+  email=full_name+'@gmail.com'
+  print(full_name)
+  print(email)
+
+student('hari','prasad')
