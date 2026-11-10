@@ -1,39 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 14 - Higher Order Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
-  </sub>
-
-</div> 
-
-[<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-- [📘 Day 14](#-day-14)
-  - [Higher Order Functions](#higher-order-functions)
-    - [Function as a Parameter](#function-as-a-parameter)
-    - [Function as a Return Value](#function-as-a-return-value)
-  - [Python Closures](#python-closures)
-  - [Python Decorators](#python-decorators)
-    - [Creating Decorators](#creating-decorators)
-    - [Applying Multiple Decorators to a Single Function](#applying-multiple-decorators-to-a-single-function)
-    - [Accepting Parameters in Decorator Functions](#accepting-parameters-in-decorator-functions)
-  - [Built-in Higher Order Functions](#built-in-higher-order-functions)
-    - [Python - Map Function](#python---map-function)
-    - [Python - Filter Function](#python---filter-function)
-    - [Python - Reduce Function](#python---reduce-function)
-  - [💻 Exercises: Day 14](#-exercises-day-14)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
 
 # 📘 Day 14
 
@@ -358,13 +322,3 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 2. Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
 1. Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
 
-### Exercises: Level 3
-
-1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
-   - Sort countries by name, by capital, by population
-   - Sort out the ten most spoken languages by location.
-   - Sort out the ten most populated countries.
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
